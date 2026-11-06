@@ -2,6 +2,7 @@ import os
 import cv2
 
 def load_images_from_folder(folder):
+    """Đọc các ảnh trong thư mục."""
     images = []
     labels = []
     class_names = sorted(os.listdir(folder))
@@ -18,3 +19,5 @@ def load_images_from_folder(folder):
 
     return images, labels, class_names
 
+def count_image_per_class(folder):
+    pass
