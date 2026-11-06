@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "segmentation": {
+    "method": "otsu",
+    "threshold": 127,
+    "foreground": "light",
+    "kernel_size": 3,
+    "min_area": 50,
+    "min_component_ratio": 0.05
+  },
+  "features": {
+    "hu_epsilon": 1e-30
+  },
+  "svm": {
+    "kernel": "linear",
+    "gamma": "scale",
+    "random_state": 42
+  },
+  "candidates": [
+    {"C": 0.1},
+    {"C": 1.0},
+    {"C": 10.0}
+  ]
+}
