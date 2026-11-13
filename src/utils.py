@@ -1,7 +1,7 @@
 import os
 import cv2
 
-def load_images_from_folder(folder):
+def load_images_from_folder(folder: str):
     """Đọc các ảnh trong thư mục."""
     images = []
     labels = []
