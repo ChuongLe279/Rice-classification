@@ -1,7 +1,6 @@
 from dataclasses import dataclass
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
 
 @dataclass
 class Augmentation:
